@@ -1,0 +1,155 @@
+body {
+    background: antiquewhite;
+    color: crimson;
+    font-weight: bolder;
+}
+
+.hide {
+    display: none;
+}
+
+.quiz, .results{
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 10px 10px;
+    background: aliceblue;
+    margin-top: 2.5%;
+    margin-left: 20%;
+    border-radius: 5px;
+}
+
+.results {
+    color: maroon;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Lato';
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 0px;
+    color: lightseagreen;
+}
+
+.container-body {
+    text-align: center;
+}
+
+#previous-btn {
+    margin-top: 20px;
+    margin-right: 20%;
+}
+
+#next-btn {
+    margin-top: 20px;
+}
+
+.sidenav {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    margin-top: 1.5%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+
+.question-nos {
+    box-sizing: border-box;
+}
+
+.nav-item {
+    box-sizing: border-box;
+    border: 2px solid white;
+    width: 50%;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 15px;
+    font-size: 2.5em;
+    color: wheat;
+    cursor: pointer;
+}
+
+#question {
+    color: darkblue;
+    font-size: 1.5em;
+}
+
+#reason {
+    color: darkviolet;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#result-image {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+}
+
+#display-name, #display-highscorer {
+    float: left;
+    width: 50%;
+}
+
+#display-scores, #display-highscore {
+    float: right;
+    width: 50%;
+}
+
+#intro-img {
+    width: 400px;
+    height: 400px;
+    margin-bottom: 10px;
+}
+
+#info {
+    font-size: 1.2em;
+    color: firebrick;
+}
+
+span {
+    color: darkgreen;
+}
+
+@media screen and (max-width: 890px) {
+    .sidenav {
+      width: 100%;
+      padding: 10px;
+      margin-top: 2.5%;
+      height: auto;
+      position: relative;
+    }
+
+    .nav-item {
+        box-sizing: border-box;
+        border: 2px solid white;
+        width: 20%;
+        float: left;
+        text-align: center;
+        font-size: 1.5em;
+        color: wheat;
+        cursor: pointer;
+    }
+
+    h1 {
+        margin-left: 0 !important;
+    }
+
+    .quiz, .results {
+        margin-left: 0;
+    }
+
+    #result-image {
+        width: 150px;
+        height: 150px;
+        padding: 10px;
+    }
+
+    #intro-img {
+        width: 250px;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+}

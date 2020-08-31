@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <title>COVID-19 Myth Buster</title>
+</head>
+<body>
+    <h1 id="heading"> COVID-19 MYTH BUSTER </h1>
+    <ul class="sidenav" id="nav-questions">
+        <div class="question-nos">
+        </div>
+    </ul>
+    
+    <div class="container">
+        <div class="container-body">
+            <div id="info">
+                <img src="./Images/covid.png" id="intro-img"> <br>
+                <label for="name"> Enter your name: </label>
+                <input type="text" name="name" id="name" placeholder="Name" value="">
+                <div id="objective">
+                    <label for="objective"> Objective: </label>
+                    <span> Classify 10 statements about COVID-19 as myths or facts within 60 seconds. 
+                    <br> Gain awareness and stay safe. </span>
+                </div>
+                <button class="btn btn-info btn-lg mt-2 mb-2" id="start-btn"> START </button>
+            </div>
+            
+            <div id="results-body" class="results hide">
+                <div id="display-name"></div>
+                <div id="display-scores"></div>
+                <div id="display-timer"></div>
+                <hr>
+                <div id="display-highscorer"></div>
+                <div id="display-highscore"></div>
+                <br>
+                <button id="review-btn" class="btn btn-dark hide"> REVIEW ANSWERS </button>
+                <button id="restart-btn" class="btn btn-dark hide"> GO HOME </button>
+            </div>
+            
+            <div id="quiz-body" class="quiz hide">
+                <div id="question"></div>
+                <div id="image" class="">
+                    <img id="result-image" src="./Images/neutral.png">
+                </div>
+                <div id="reason"></div>
+                <div class="options">
+                    <button id="fact" class="btn btn-primary btn-block"> FACT </button>
+                    <button id="myth" class="btn btn-primary btn-block"> MYTH </button>
+                </div>
+                <div class="navigators">
+                    <button id="previous-btn" class="btn btn-dark"> PREVIOUS </button>
+                    <button id="next-btn" class="btn btn-dark"> NEXT </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+</html>
