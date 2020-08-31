@@ -66,7 +66,7 @@ var questions = [
     {
         question: "Qatar leads the world in the most number of COVID-19 cases per million population.",
         answer: "1",
-        reason: "Fact. Although USA leads the world in the most number of cases, Qatar yops this list with more than 40,000 cases per million population.",
+        reason: "Fact. Although USA leads the world in the most number of cases, Qatar tops this list with more than 40,000 cases per million population.",
         answered: false, 
         result: null
     }
