@@ -1,5 +1,5 @@
 # Spider-Task-2
-A responsive COVID-19 quiz where the user has to classify 10 statements as either a myth or a fact. Visit the quiz **[here](https://subramanian-vv.github.io/Spider-Task-2/).**
+A responsive COVID-19 quiz where the user has to classify 10 statements as either a myth or a fact. Visit the quiz **[here](https://subramanian-vv.github.io/COVID-19-Myth-Buster/).**
 
 ### Basic Mode: 
 - [x] Select a fixed set of questions to be displayed on the website. There must be a minimum of 10 questions with appropriate options.
